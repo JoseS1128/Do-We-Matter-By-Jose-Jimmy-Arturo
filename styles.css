@@ -1,0 +1,153 @@
+body {
+    background-image:url(http://cdn.spacetelescope.org/archives/images/screen/heic1313b.jpg);
+    }
+
+.question {
+    color:white;
+    text-align:center;
+    display:none;
+    font-size:50px;
+    }
+    
+.space {
+      align-content: center;
+      width: 1900px;
+      height: 1000px;
+    }
+
+.statement {
+    display:none;
+    color:white;
+    text-align:center;
+    font-size:75px;
+        display:none;
+    }
+    
+#buttons{
+   text-decoration:none;
+   display:none;
+   color:white;
+    }
+
+.proceed{
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/81kTrSqMuLL._SX355_.jpg);
+  border: solid;
+  border-color:#000066;
+  color: white;
+  padding: 15px 32px;
+  align-content: center;
+  text-decoration: none;
+  font-size: 20px;
+  display:none;
+}
+
+.mercury_button{
+    background-image: url(http://www.astronomy.com/-/media/Images/News%20and%20Observing/News/2018/03/mercury_1.jpg?mw=600);
+    padding: 175px 175px;
+     color:white;
+     font-size: 20px;
+    }
+    
+.venus_button{
+    padding: 175px 175px;
+    background-image: url(http://www.cgdepot.com/UserFiles/product/12883049134cc9f911e9dd4-400x400.jpg);
+     color:white;
+     font-size: 20px;
+    }
+    
+.earth_button{
+    background-image: url(http://www.burpee.org/wp-content/uploads/2018/08/EarthRocks.jpg);
+    padding:175px 115px;
+     color:red;
+     font-size: 20px;
+    }
+
+.mars_button{
+    background-image: url(https://pbs.twimg.com/profile_images/2473891057/mars_photo_400x400.jpg);
+    padding:175px 170px;
+     color:white;
+     font-size: 20px;
+    }
+    
+.jupiter_button{
+    background-image: url(http://sidereal.technetium.be/images/planets/jupiter.jpg);
+    padding: 175px 175px;
+     color:white;
+     font-size: 20px;
+    }
+    
+.saturn_button{
+    background-image: url(http://img-new.cgtrader.com/items/28378/large_planet_saturn_3d_model_lwo_lw_lws_f40f4b98-5970-440b-b373-316b08304796.JPG);
+    padding: 175px 175px;
+     color:white;
+     font-size: 20px;
+    }
+    
+.uranus_button{
+    background-image: url(http://www.cgdepot.com/UserFiles/product/12744840614bf7155db33bf-400x400.jpg);
+    padding:175px 175px;
+     color:white;
+     font-size: 20px;
+}  
+.neptune_button{
+    background-image: url(http://www.cgdepot.com/UserFiles/product/135268595850a05986b1f08-400x400.jpg);
+    padding:175px 175px;
+     color:white;
+     font-size: 20px;
+    }
+    
+.mercuryInfo{
+    color:white;
+    font-size:50px;
+    text-align:center;
+      display:none;
+    }
+    
+.venusInfo{
+    color:white;
+    font-size:50px;
+    text-align:center;
+      display:none;
+    }
+    
+.earthInfo{
+    color:white;
+    font-size:50px;
+    text-align:center;
+      display:none;
+    }
+    
+.marsInfo{
+    color:white;
+    font-size:50px;
+    text-align:center;
+      display:none;
+    }
+    
+.jupiterInfo{
+    color:white;
+    font-size:50px;
+    text-align:center;
+      display:none;
+    }
+    
+.saturnInfo{
+    color:white;
+    font-size:50px;
+    text-align:center;
+      display:none;
+    }
+
+.uranusInfo{
+    color:white;
+    font-size:50px;
+    text-align:center;
+      display:none;
+    }
+    
+.neptuneInfo{
+    color:white;
+    font-size:50px;
+    text-align:center;
+    display:none;
+    }
