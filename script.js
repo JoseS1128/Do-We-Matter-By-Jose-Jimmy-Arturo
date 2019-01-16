@@ -19,39 +19,59 @@ $("#buttons").fadeIn(3000);
 $(".mercury_button").click(function() {
     $(".mercuryInfo").fadeIn();
     $("#buttons").fadeOut();
+      $(".back").fadeIn();
 });
 
 $(".venus_button").click(function() {
      $(".venusInfo").fadeIn();
     $("#buttons").fadeOut();
+      $(".back").fadeIn();
 });
 
 $(".earth_button").click(function() {
      $(".earthInfo").fadeIn();
     $("#buttons").fadeOut();
+      $(".back").fadeIn();
 });
 
 $(".mars_button").click(function() {
      $(".marsInfo").fadeIn();
-    $("#buttons").fadeOut();
+   
+     $(".back").fadeIn(); $("#buttons").fadeOut();
 });
 
 $(".jupiter_button").click(function() {
      $(".jupiterInfo").fadeIn();
     $("#buttons").fadeOut();
+    $(".back").fadeIn();
 });
 
 $(".saturn_button").click(function() {
      $(".saturnInfo").fadeIn();
     $("#buttons").fadeOut();
+    $(".back").fadeIn();
 });
 
 $(".uranus_button").click(function() {
      $(".uranusInfo").fadeIn();
     $("#buttons").fadeOut();
+    $(".back").fadeIn();
 });
 
 $(".neptune_button").click(function() {
      $(".neptuneInfo").fadeIn();
     $("#buttons").fadeOut();
+    $(".back").fadeIn();
+});
+
+$(".back").click(function(){
+    $("#buttons").fadeIn(3000);
+    $(".neptuneInfo").fadeOut();
+    $(".uranusInfo").fadeOut();
+      $(".saturnInfo").fadeOut();
+        $(".marsInfo").fadeOut();
+        $(".earthInfo").fadeOut();
+          $(".venusInfo").fadeOut();
+            $(".mercuryInfo").fadeOut();
+      $(".jupiterInfo").fadeOut();
 });
